@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+    android:id="@+id/rvSMS"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:listitem="@layout/list_item_sms"
+    tools:context=".ui.ResultFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- ================================================== -->
+    <!--  Default attribute override style -->
+    <!-- ================================================== -->
+
+    <!--  materialButtonOutlineStyle  -->
+    <style name="Widget.App.Button.OutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="android:strokeColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- toolbarStyle -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="titleTextAppearance">@style/toolbarTextStyle</item>
+    </style>
+
+    <style name="toolbarTextStyle">
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <!-- textInputStyle -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">?attr/colorSurface</item>
+        <item name="helperTextTextColor">@color/grey_400</item>
+        <item name="android:textColorHint">@color/grey_400</item>
+        <item name="hintTextColor">@color/grey_500</item>
+    </style>
+
+    <!-- ================================================== -->
+    <!--  Custom Styles  -->
+    <!-- ================================================== -->
+
+    <!-- ================================================== -->
+    <!--  Theme Overlays  -->
+    <!-- ================================================== -->
+    <style name="successOverlay">
+        <item name="colorPrimary">@color/green_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+
+    <style name="infoOverlay">
+        <item name="colorPrimary">@color/blue_400</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="dangerOverlay">
+        <item name="colorPrimary">@color/red_400</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
